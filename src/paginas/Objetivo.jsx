@@ -25,14 +25,26 @@ function Objetivo() {
         </header>
 
         <main className={styles.main}>
-          <div className={styles.divcamera}>
-            <img className={styles.camera} src={camera} alt="camera observando" />
-          </div>
           <div className={styles.conteudo}>
+          <div className={styles.conteudo1}>
+            <div className={styles.Objetivo}>
             <h1 className={styles.h1}>Objetivo:</h1>
             <p className={styles.p}> Nosso trabalho é fazer um sistema de segurança (alarme) que só acione se o tempo pré-definido do alarme tiver passado. Ele vai soar um alarme alto para o proprietário e pessoas ao redor serem informando que algo suspeito aconteceu perto de sua porta. Trazendo assim mais conforto e segurança para as pessoas que utilizam nossos equipamentos da forma mais rápida, fácil e prática. </p>
+            </div>
+            <div className={styles.divcamera}>
+              <img className={styles.camera} src={camera} alt="camera observando" />
+            </div>
+            </div>
+
+            <div className={styles.conteudo1}>
+            <div className={styles.divcamera}>
+              <img className={styles.camera} src={camera} alt="camera observando" />
+            </div>
+            <div className={styles.Publico}>
             <h1 className={styles.h1}>Público-alvo:</h1>
             <p className={styles.p}> Trabalhamos com familias pequenas e grandes, nossos sistemas ajudam a identificar os membros que tem a permição de entrar em sua propriedade. Para jovens ou adultos que pretendem maior segurança em suas casas.</p>
+            </div>
+            </div>
           </div>
         </main>
       </>

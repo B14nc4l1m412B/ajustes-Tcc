@@ -81,12 +81,23 @@ button {
     color: white;
 }
 
+.Objetivo, .Publico{
+    width: 45rem;
+    text-align: center;
+}
+
+.conteudo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
 .divcamera {
     align-items: center;
     justify-content: center;
     display: flex;
     padding: 1rem;
-    background-color: #0C3264;
 }
 
 .camera {
@@ -96,7 +107,7 @@ button {
 }
 
 .conteudo {
-    padding: 2.3rem;
+    padding: 2rem;
 }
 
 h1 {
