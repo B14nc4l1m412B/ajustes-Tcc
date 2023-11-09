@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Dosis&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 1rem;
+    background-color: #092244;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.buttonLogo{
+    padding: 0.2rem;
+    display: block;
+    color: white;
+    width: 10rem;
+    text-align: center;
+}
+
+button {
+    background-color: #092244;
+    border: none;
+}
+
+.home {
+    font-size: 1.2rem;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.Logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+.todomenu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 96rem;
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    text-align: center;
+    padding-inline: 7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu1:hover{
+    text-decoration: underline;
+}
+
+.menu2:hover{
+    text-decoration: underline;
+}
+
+.menu3:hover{
+    text-decoration: underline;
+}
+
+.menu4:hover{
+    text-decoration: underline;
+}
+
+.main {
+    background: #2F4B72;
+    color: white;
+}
+
+.imagemdefundo {
+    height: 38rem;
+    width: 117rem;
+}
+
+.conteudo {
+    padding-block: 1.5rem;
+    padding-inline: 10rem;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    font-family: 'Bitter', serif;
+}
+
+.p {
+    padding: 1.78rem;
+    font-size: 1.6rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+@media (max-width: 400px) {
+    .header {
+        padding: 1rem;
+    }
+    .buttonLogo {
+        padding-right: 2.5rem;
+    }
+    .buttonLogin {
+        padding-left: 2.5rem;
+    }
+    .Logo {
+        height: 3rem;
+        width: 3rem;
+    }
+    .home {
+        font-size: 1rem;
+    }
+    .todomenu {
+        width: 13rem;
+        height: 8rem;
+        display: block;
+    }
+    .menu1,
+    .menu2,
+    .menu3,
+    .menu4 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 1rem;
+        padding-inline: 0.6rem;
+        padding-block: 0.4rem;
+    }
+    .login {
+        height: 2rem;
+        width: 2rem;
+    }
+    .imagemdefundo {
+        height: 14rem;
+        width: 24rem;
+    }
+    .conteudo {
+        padding-block: 1.5rem;
+        padding-inline: 1rem;
+        text-align: center;
+    }
+    .h1 {
+        font-size: 3.5rem;
+    }
+    .p {
+        font-size: 1.6rem;
+    }
+}

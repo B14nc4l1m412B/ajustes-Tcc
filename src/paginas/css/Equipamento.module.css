@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Dosis&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 1rem;
+    background-color: #092244;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.buttonLogo{
+    padding: 0.2rem;
+    display: block;
+    color: white;
+    width: 10rem;
+    text-align: center;
+}
+
+button {
+    background-color: #092244;
+    border: none;
+}
+
+.home {
+    font-size: 1.2rem;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.Logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+.todomenu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 96rem;
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    text-align: center;
+    padding-inline: 7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu1:hover{
+    text-decoration: underline;
+}
+
+.menu2:hover{
+    text-decoration: underline;
+}
+
+.menu3:hover{
+    text-decoration: underline;
+}
+
+.menu4:hover{
+    text-decoration: underline;
+}
+
+.main {
+    background: #2F4B72;
+    color: white;
+    display: flex;
+}
+
+.conteudo {
+    padding: 2rem;
+    padding-left: 4rem;
+    display: flex;
+}
+
+.imgcomponentes {
+    width: 40rem;
+    padding: 1rem;
+    padding-left: 7rem;
+}
+
+.Imagecomponentes {
+    height: 45.2rem;
+    width: 30rem;
+    border-radius: 10px;
+}
+
+.lista {
+    padding-left: 20rem;
+    width: 50rem;
+    height: 20rem;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Bitter', serif;
+}
+
+li {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+}
+
+.youtube {
+    padding-top: 6rem;
+    padding-left: 40rem;
+    padding: 2rem;
+    display: block;
+    width: 72rem;
+    height: 20rem;
+    text-align: center;
+}
+
+.imagem {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2rem;
+}
+
+.Brincando {
+    border-radius: 50%;
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 2rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+@media (max-width: 400px) {
+    .header {
+        padding: 1rem;
+    }
+    .buttonLogo {
+        padding-right: 2.5rem;
+    }
+    .buttonLogin {
+        padding-left: 2.5rem;
+    }
+    .Logo {
+        height: 3rem;
+        width: 3rem;
+    }
+    .home {
+        font-size: 1rem;
+    }
+    .todomenu {
+        width: 13rem;
+        height: 8rem;
+        display: block;
+    }
+    .menu1,
+    .menu2,
+    .menu3,
+    .menu4 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 1rem;
+        padding-inline: 0.6rem;
+        padding-block: 0.4rem;
+    }
+    .login {
+        height: 2rem;
+        width: 2rem;
+    }
+    .conteudo {
+        width: 23.72rem;
+        padding: 1rem;
+        display: block;
+    }
+    .imgcomponentes {
+        padding: 0.5rem;
+        width: 21rem;
+    }
+    .Imagecomponentes {
+        height: 32rem;
+        width: 20rem;
+    }
+    .lista {
+        padding: 1.5rem;
+        height: 15rem;
+        width: 20rem;
+    }
+    .h1 {
+        font-size: 2.5rem;
+    }
+    li {
+        font-size: 1.5rem;
+    }
+    .youtube {
+        padding: 1rem;
+        padding-top: 5rem;
+        width: 22rem;
+        height: 25rem;
+    }
+    .link {
+        font-size: 1.2rem;
+    }
+}
