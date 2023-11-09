@@ -162,5 +162,7 @@ p {
     .p {
         font-size: 1.3rem;
         padding-inline: 0.5rem;
+        line-height: 2rem;
+        text-align: center;
     }
 }

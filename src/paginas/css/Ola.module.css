@@ -97,7 +97,7 @@ button {
     font-family: 'Bitter', serif;
 }
 
-.p {
+.h2 {
     padding: 1.78rem;
     font-size: 1.6rem;
     font-family: 'Dosis', sans-serif;
@@ -152,7 +152,7 @@ button {
     .h1 {
         font-size: 3.5rem;
     }
-    .p {
+    .h2 {
         font-size: 1.6rem;
     }
 }
