@@ -14,11 +14,11 @@
     display: flex;
 }
 
-.buttonLogo{
+.buttonLogo {
     padding: 0.2rem;
     display: block;
     color: white;
-    width: 10rem;
+    width: 5rem;
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ button {
 }
 
 .home {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #ffff;
     text-decoration: none;
     font-weight: bold;
@@ -36,8 +36,8 @@ button {
 }
 
 .Logo {
-    height: 5rem;
-    width: 5rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 .todomenu {
@@ -51,28 +51,28 @@ button {
 .menu2,
 .menu3,
 .menu4 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #ffff;
     font-weight: bold;
     text-align: center;
-    padding-inline: 7rem;
+    padding-inline: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.menu1:hover{
+.menu1:hover {
     text-decoration: underline;
 }
 
-.menu2:hover{
+.menu2:hover {
     text-decoration: underline;
 }
 
-.menu3:hover{
+.menu3:hover {
     text-decoration: underline;
 }
 
-.menu4:hover{
+.menu4:hover {
     text-decoration: underline;
 }
 
@@ -81,12 +81,13 @@ button {
     color: white;
 }
 
-.Objetivo, .Publico{
+.Objetivo,
+.Publico {
     width: 45rem;
     text-align: center;
 }
 
-.conteudo1{
+.conteudo1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,8 +102,8 @@ button {
 }
 
 .camera {
-    height: 25rem;
-    width: 40rem;
+    height: 15rem;
+    width: 20rem;
     border-radius: 10px;
 }
 

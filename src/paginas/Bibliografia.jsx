@@ -17,8 +17,10 @@ function Bibliografia() {
         <header className={styles.header}>
           <div className={styles.buttonLogo}>
           <button>
-            <img className={styles.Logo} src={Logo} alt="logo azul" />
-            <Link className={styles.home} to={"/"} >B.D.L. systems</Link>
+            <Link className={styles.home} to={"/"} >
+              <img className={styles.Logo} src={Logo} alt="logo azul" />
+              B.D.L. systems
+            </Link>
           </button>
           </div>
           <div className={styles.todomenu}>
